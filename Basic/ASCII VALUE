@@ -1,0 +1,48 @@
+# Python program to print 
+# ASCII Value of Character 
+
+# In c we can assign different 
+# characters of which we want ASCII value 
+
+c = 'g'
+# print the ASCII value of assigned character in c 
+print("The ASCII value of '" + c + "' is", ord(c)) 
+// C program to print 
+// ASCII Value of Character 
+#include <stdio.h> 
+int main() 
+{ 
+	char c = 'k'; 
+
+	// %d displays the integer value of a character 
+	// %c displays the actual character 
+	printf("The ASCII value of %c is %d", c, c); 
+	return 0; 
+} 
+// CPP program to print 
+// ASCII Value of Character 
+#include <iostream> 
+using namespace std; 
+int main() 
+{ 
+	char c = 'A'; 
+	cout << "The ASCII value of " << c << " is " << int(c); 
+	return 0; 
+} 
+// C# program to print 
+// ASCII Value of Character 
+using System; 
+
+public class AsciiValue 
+{ 
+	public static void Main() 
+	{ 
+
+		char c = 'e'; 
+		int ascii = c; 
+		Console.Write("The ASCII value of " + 
+						c + " is: " + ascii); 
+	} 
+} 
+
+
