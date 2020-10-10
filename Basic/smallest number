@@ -2,7 +2,7 @@
 # number in a list 
   
 # creating empty list 
-list1 = [] 
+list1 = [1] 
   
 # asking number of elements to put in list 
 num = int(input("Enter number of elements in list: ")) 
