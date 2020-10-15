@@ -25,7 +25,7 @@ def run(string):
 if __name__ == '__main__' : 
 	
 	# Enter the string 
-	string = "Geeks$For$Geeks"
+	string = "Gonthina Girish"
 	
 	# calling run function 
 	run(string) 
